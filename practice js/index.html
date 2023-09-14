@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="conatainer">
+        <div class="col-md-7 p-0 content-centre shadow">
+            <div class="card m-5 p-5  border-0 shadow">
+                <h1 class="p-0 fw-bolder ">Hello user </h1>
+                <h2 class="text-muted">here you can discover the states of india or any country of the world just type the name of the country or state</h2>
+                <div class="taking-input">
+                    <input id="input" type="text" class="input p-2 text-danger border-0" placeholder="which state of india do you want to discover">
+                    <button onclick="search()" class="btn bg-primary mx-5">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="row m-auto " id="row">
+            <div class="col-sm-4 ">
+                <div class="card border-0 mt-5 mx-5 shadow">
+                    <div class="p-0">
+                        <img src="https://source.unsplash.com/1600x900/?rajsthan" alt="" class="img-fluid">
+                        <h3 class="fs-6 py-0 px-2 mb-0 ">
+                            Explore the beauty of rajasthan
+                        </h3>
+                        <p class="smaller text-muted px-2 py-1 mt-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officia cupiditate maxime quam consequuntur quis non hic quo aliquid expedita!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-sm-4">
+                <div class="card border-0 mt-5 mx-5 shadow">
+                    <div class="p-0">
+                        <img src="https://source.unsplash.com/1600x900/?haryana" alt="" class="img-fluid">
+                        <h3 class="fs-6 px-2 py-0 mb-0">
+                            Explore the beauty of Haryana
+                        </h3>
+                        <p class="smaller px-2 py-1 mt-0 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officia cupiditate maxime quam consequuntur quis non hic quo aliquid expedita!</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="col-sm-4">
+                <div class="card border-0 mt-5 mx-5 shadow">
+                    <div class="p-0">
+                        <img src="https://source.unsplash.com/1600x900/?telengana" alt="" class="img-fluid">
+                        <h3 class="fs-6 px-2 py-0 mb-0">
+                            Explore the beauty of Telengana
+                        </h3>
+                        <p class="smaller px-2 py-1 mt-0 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officia cupiditate maxime quam consequuntur quis non hic quo aliquid expedita!</p>
+                    </div>
+                </div>
+            </div> -->
+            
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
